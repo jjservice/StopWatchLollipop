@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     align-items: center;
     background: linear-gradient(to right,black,darkblue,maroon,black);
+    padding: 5px;
 }
 body.light{
     background: linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
@@ -78,7 +79,7 @@ h3 ion-icon{
     border-radius: 50px;
     margin-top: 15px;
     background-color: rgba(0, 0, 0, 0.295);
-    height: 540px;
+    height: 550px;
    
 
 }
