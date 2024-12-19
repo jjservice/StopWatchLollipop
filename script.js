@@ -50,3 +50,8 @@ function update(){
     display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
 
 }
+
+function toggleLight(){
+    const body = document.querySelector('body');
+    body.classList.toggle('light');
+}
