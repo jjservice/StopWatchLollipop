@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="index.css">
     <title>Stop Watch</title>
 </head>
-<body class="light">
+<body>
 
     <div id="container">
         <h1 onclick="toggleLight()">LOLLIP<ion-icon name="pin-outline"></ion-icon>P</h1>
@@ -22,9 +22,21 @@
             <button type="button" id="reset" onclick="reset()">Reset</button>
 
         </div>
-        <h3>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h3>
-        <a href="https://jjservice.github.io/L2/1.html" class="homebtn"><ion-icon name="home"></ion-icon></a>
+       
     </div>
+
+    <footer>
+        <div class="homebtn"><a href="javascript:history.back()"><ion-icon name="arrow-back-sharp"></ion-icon></a></div>
+        <p>&copy;<i id="currentYear"></i>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></p>
+      </footer>
+    
+      <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        
+        // Find the element with id "currentYear" and set its content to the current year
+        document.getElementById("currentYear").textContent = currentYear;
+      </script>
     
     
 </body>
