@@ -8,6 +8,7 @@ body{
     align-items: center;
     background: linear-gradient(to right,black,darkblue,maroon,black);
     padding: 5px;
+    transition: 1s ease-in-out;
 }
 body.light{
     background: linear-gradient(to right,black,darkblue,lightgreen,maroon,black);
